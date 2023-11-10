@@ -1,0 +1,27 @@
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Inter;
+}
+
+.button{
+  all:unset;
+  padding: 2rem;
+  background-color: violet;
+  border: 1px solid black;
+  border-radius: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: opacity .5s linear;
+}
+
+.button:hover{
+  opacity: .5;
+}
+
+.container{
+  display: flex;
+  gap: 5px;
+}
