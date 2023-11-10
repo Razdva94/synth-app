@@ -42,7 +42,7 @@ const App = () => {
   }, [currentSound, soundA, soundS, soundD]);
 
   return (
-    <body className='body'>
+    <div className='body'>
       <div className='container'>
         <button className='button' onClick={() => playSound(soundA)}>
           A
@@ -54,7 +54,7 @@ const App = () => {
           D
         </button>
       </div>
-    </body>
+    </div>
   );
 };
 
